@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+*{ 
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+Body {
+    background-color: black;
+    color: red;
+}
+
+#calculadora{
+    width: 85vw;
+    height: 75vh;
+    background-color: rgb(212, 209, 209);
+    margin: auto;
+    border-radius: 20px;
+    border: 1px solid red;
+    box-shadow: 2px 2px 10px red;
+}
+#visor {
+    width: 90%;
+    height: 20%;
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.555);
+}
+
+input.botoesCima, .numeros, .sinais {
+    height: 50px;
+    width: 20%;
+    box-shadow: 2px 2px 5px black;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.sinais {
+    background-color: rgb(196, 196, 196);
+}
+
+
+footer {
+    font-weight: bold;
+}
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+footer a:hover {
+    padding: 2px;
+    border-radius: 10px;
+    color: red;
+    font-weight: bold;
+    background-color: rgb(196, 196,196);
+    transition: .3s;
+}
