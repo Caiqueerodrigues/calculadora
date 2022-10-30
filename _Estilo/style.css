@@ -32,6 +32,10 @@ Body {
     box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.555);
 }
 
+main input:hover {
+    transform: translate(-2px, -2px);
+    box-shadow: inset 0px 0px 15px black;
+}
 input.botoesCima, .numeros, .sinais {
     height: 50px;
     width: 20%;
