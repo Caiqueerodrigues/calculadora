@@ -30,11 +30,16 @@ Body {
     margin: 20px auto;
     border-radius: 20px;
     box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 0.555);
+    padding-top: 30px;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
 }
 
 main input:hover {
     transform: translate(-2px, -2px);
     box-shadow: inset 0px 0px 15px black;
+    cursor: pointer;
 }
 input.botoesCima, .numeros, .sinais {
     height: 50px;

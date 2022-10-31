@@ -15,31 +15,31 @@
             <div id="calculadora">
                 <div id="visor"></div>
                 <section id="botoesSinais">
-                    <input type="button" value="%" class="botoesCima">
-                    <input type="reset" value="C" class="botoesCima">
-                    <input type="button" value="⌫" class="botoesCima">
-                    <input type="button" value="." class="botoesCima">
+                    <input type="button" value="%" class="botoesCima" onclick="calcular()">
+                    <input type="reset" value="C" class="botoesCima" onclick="calcular(`reset`)">
+                    <input type="button" value="⌫" class="botoesCima" onclick="calcular()">
+                    <input type="button" value="." class="botoesCima" onclick="calcular(`.`)">
                 </section>
                 <section id="botoesNumeros">
-                    <input type="button" value="7" class="numeros">
-                    <input type="button" value="8" class="numeros">
-                    <input type="button" value="9" class="numeros">
-                    <input type="button" value="+" class="sinais">
+                    <input type="button" value="9" class="numeros" onclick="calcular(9)">
+                    <input type="button" value="8" class="numeros" onclick="calcular(8)">
+                    <input type="button" value="7" class="numeros" onclick="calcular(7)">
+                    <input type="button" value="+" class="sinais" onclick="calcular()">
                     <br>
-                    <input type="button" value="6" class="numeros">
-                    <input type="button" value="5" class="numeros">
-                    <input type="button" value="4" class="numeros">
-                    <input type="button" value="-" class="sinais">
+                    <input type="button" value="6" class="numeros" onclick="calcular(6)">
+                    <input type="button" value="5" class="numeros" onclick="calcular(5)">
+                    <input type="button" value="4" class="numeros" onclick="calcular(4)">
+                    <input type="button" value="-" class="sinais" onclick="calcular(`-`)">
                     <br>
-                    <input type="button" value="3" class="numeros">
-                    <input type="button" value="2" class="numeros">
-                    <input type="button" value="1" class="numeros">
-                    <input type="button" value="&divide" class="sinais">
+                    <input type="button" value="3" class="numeros" onclick="calcular(3)">
+                    <input type="button" value="2" class="numeros" onclick="calcular(2)">
+                    <input type="button" value="1" class="numeros" onclick="calcular(1)">
+                    <input type="button" value="&divide" class="sinais" onclick="calcular()">
                     <br>
-                    <input type="button" value="0" class="numeros">
-                    <input type="button" value="X" class="sinais">
-                    <input type="button" value="X²" class="sinais">
-                    <input type="button" value="=" class="sinais">
+                    <input type="button" value="0" class="numeros" onclick="calcular(0)">
+                    <input type="button" value="X" class="sinais" onclick="calcular(`*`)">
+                    <input type="button" value="X²" class="sinais" onclick="calcular()">
+                    <input type="button" value="=" class="sinais" onclick="calcular(`==`)">
                 </section>
             </div>
         </main>
